@@ -1,0 +1,187 @@
+true - правда. false - ложб
+
+[/Script/BeastsOfBermuda.ServerGameInstance]
+MapNameOverride=   "Название карты"
+GameMode=Life_Cycle   Режим игры.
+PreferredGameExperience=EGameExperience::PvP   Режим вражды.
+FoodDrainDifficulty=EGameDifficulty::Easy   Скорость понижения голода.
+WaterDrainDifficulty=EGameDifficulty::Easy   Скорость понижения жажды.
+WaterDirtinessDifficulty=EGameDifficulty::Normal   Загрезнение воды.
+GrowthRate=EGrowthRate::VeryFast   Скорость роста очень быстрая.
+FoliageSpawnSpeed=EGrowthRate::Normal   Скорость появления листвы.
+MaxTalentsAllowed=-1   Максимальное количество разрешенных талантов.
+bDisplayDiscordLink=   Разрешить ссылку на дискорд.
+DiscordLink="Указать ссылку на дискорд, последнее значение"
+bRequireSteamGroupToJoin=   Присоединение через Steam.
+bDisplayIntroMessage=   Отобразить вводное сообщение.
+bDisableUseRandomName=   Отключить использование случайного имени.
+bConsoleLocked=true   Консоль заблокирована.
+ReservedAdminSlots=7   Количество зарезервированных слотов для администрации.
+bDisableGlobalChat=   Отключить глобальный чат.
+bDisableLocalChat=   Отключить локальный чат.
+CarcassRateMultiplier=6f   Множитель скорости спавна каркасов.
+CarcassSpawnRatio=1f   Соотношение веса каркасов.
+bDisableRestlessDebuff=   Отключите дебафф "Беспокойный".
+bDisableRandomEggSpawns=   Отключить случайное появление яиц.
+RandomEggSpawnChance=0.1f   Случайный шанс появления яйца.
+bDisableAISpawning=   Отключить появление искусственного интеллекта.
+bSpawnWorldEvents=   Спавн мировых событий.
+WorldEventPrepTime=Время подготовки к мировому событию в минутах.
+WorldEventDuration=Продолжительность мирового события в минутах.
+WorldEventSpacing=Интервал между мировыми событиями в минутах.
+!WorldEventBuffsToNotUse=ClearArray 
+WorldEventBuffsToNotUse=EVENT_AutoResurrection    Какие мировые события отключить. Ниже перечислить список.
+WorldEventBuffsToNotUse=EVENT_Reskin
+AISpawnRateMultiplier=1f   Множитель скорости появления искусственного интеллекта.
+AISpawnCapMultiplier=1f   Множитель лимита появления искусственного интеллекта
+!DisabledAITypes=ClearArray
+bDisableRevengeKillProtection=   Отключить защиту от убийства из мести.
+bDisableLeaderboard=   Отключить таблицу лидеров.
+DayLength=4441f    Продолжительность дня в секундах.
+TunnelNetworkDespawnTime=    Время восстановления туннельной сети.
+bDisableResurrections=   Отключить воскрешение.
+bDisableReincarnations=   Отключить реинкарнации.
+bPortalsDisabled=   Порталы отключены.
+bSpawnForestFires=   Спавн лесных пожаров.
+bUseMixedHerdCaps=   Смешанные стада.
+bUseHardGroupLimits=   Использовать жесткие групповые ограничения.
+!CreatureLimits=ClearArray
+Ограничения в группах, стоит как надо НИЧЕГО НЕ МЕНЯТЬ.
+CreatureLimits=(CreatureType=EDinoType::<ya-tr-span data-index="31-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Acrocanthosaurus" data-translation="Акрокантозавр" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Акрокантозавр</ya-tr-span>,PercentAllowed=50f,GroupLimit=999,SoftCapStart=0.7f,SoftCapEnd=1.0f)
+CreatureLimits=(CreatureType=EDinoType::<ya-tr-span data-index="32-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Apatosaurus" data-translation="Апатозавр" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Апатозавр</ya-tr-span>,PercentAllowed=50f,GroupLimit=999,SoftCapStart=0.7f,SoftCapEnd=1.0f)
+CreatureLimits=(CreatureType=EDinoType::<ya-tr-span data-index="33-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Archelon" data-translation="Архелон" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Архелон</ya-tr-span>,PercentAllowed=50f,GroupLimit=999,SoftCapStart=0.7f,SoftCapEnd=1.0f)
+CreatureLimits=(CreatureType=EDinoType::<ya-tr-span data-index="34-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Arganodus" data-translation="Арганодус" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Арганодус</ya-tr-span>,PercentAllowed=50f,GroupLimit=999,SoftCapStart=0.7f,SoftCapEnd=1.0f)
+CreatureLimits=(CreatureType=EDinoType::<ya-tr-span data-index="35-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Auroraceratops" data-translation="Полярный цератопс" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Полярный цератопс</ya-tr-span>,PercentAllowed=50f,GroupLimit=999,SoftCapStart=0.7f,SoftCapEnd=1.0f)
+CreatureLimits=(CreatureType=EDinoType::<ya-tr-span data-index="36-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Coahuilaceratops" data-translation="Коауилацератопс" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Коауилацератопс</ya-tr-span>,PercentAllowed=50f,GroupLimit=999,SoftCapStart=0.7f,SoftCapEnd=1.0f)
+CreatureLimits=(CreatureType=EDinoType::<ya-tr-span data-index="37-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Elasmosaurus" data-translation="Эласмозавр" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Эласмозавр</ya-tr-span>,PercentAllowed=50f,GroupLimit=999,SoftCapStart=0.7f,SoftCapEnd=1.0f)
+CreatureLimits=(CreatureType=EDinoType::<ya-tr-span data-index="38-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="HorseshoeCrab" data-translation="Мечехвост" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Мечехвост</ya-tr-span>,PercentAllowed=50f,GroupLimit=999,SoftCapStart=0.7f,SoftCapEnd=1.0f)
+CreatureLimits=(CreatureType=EDinoType::<ya-tr-span data-index="39-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Kronosaurus" data-translation="Кронозавр" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Кронозавр</ya-tr-span>,PercentAllowed=50f,GroupLimit=999,SoftCapStart=0.7f,SoftCapEnd=1.0f)
+CreatureLimits=(CreatureType=EDinoType::<ya-tr-span data-index="40-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Ichthyovenator" data-translation="Ихтиовенатор" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Ихтиовенатор</ya-tr-span>,PercentAllowed=50f,GroupLimit=999,SoftCapStart=0.7f,SoftCapEnd=1.0f)
+CreatureLimits=(CreatureType=EDinoType::<ya-tr-span data-index="41-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Lurdusaurus" data-translation="Лурдузавр" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Лурдузавр</ya-tr-span>,PercentAllowed=50f,GroupLimit=999,SoftCapStart=0.7f,SoftCapEnd=1.0f)
+CreatureLimits=(CreatureType=EDinoType::<ya-tr-span data-index="42-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Malawania" data-translation="Малавания" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Малавания</ya-tr-span>,PercentAllowed=50f,GroupLimit=999,SoftCapStart=0.7f,SoftCapEnd=1.0f)
+CreatureLimits=(CreatureType=EDinoType::<ya-tr-span data-index="43-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Megalosaurus" data-translation="Мегалозавр" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Мегалозавр</ya-tr-span>,PercentAllowed=50f,GroupLimit=999,SoftCapStart=0.7f,SoftCapEnd=1.0f)
+CreatureLimits=(CreatureType=EDinoType::<ya-tr-span data-index="44-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Megaraptor" data-translation="Мегараптор" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Мегараптор</ya-tr-span>,PercentAllowed=50f,GroupLimit=999,SoftCapStart=0.7f,SoftCapEnd=1.0f)
+CreatureLimits=(CreatureType=EDinoType::<ya-tr-span data-index="45-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Mosasaurus" data-translation="Мозазавр" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Мозазавр</ya-tr-span>,PercentAllowed=50f,GroupLimit=999,SoftCapStart=0.7f,SoftCapEnd=1.0f)
+CreatureLimits=(CreatureType=EDinoType::<ya-tr-span data-index="46-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Oryctodromeus" data-translation="Oryctodromeus" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Oryctodromeus</ya-tr-span>,PercentAllowed=50f,GroupLimit=999,SoftCapStart=0.7f,SoftCapEnd=1.0f)
+CreatureLimits=(CreatureType=EDinoType::<ya-tr-span data-index="47-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Pachycephalosaurus" data-translation="Пахицефалозавр" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Пахицефалозавр</ya-tr-span>,PercentAllowed=50f,GroupLimit=999,SoftCapStart=0.7f,SoftCapEnd=1.0f)
+CreatureLimits=(CreatureType=EDinoType::<ya-tr-span data-index="48-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Palaeophis" data-translation="Палеофис" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Палеофис</ya-tr-span>,PercentAllowed=50f,GroupLimit=999,SoftCapStart=0.7f,SoftCapEnd=1.0f)
+CreatureLimits=(CreatureType=EDinoType::<ya-tr-span data-index="49-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Parasaurolophus" data-translation="Паразауролоф" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Паразауролоф</ya-tr-span>,PercentAllowed=50f,GroupLimit=999,SoftCapStart=0.7f,SoftCapEnd=1.0f)
+CreatureLimits=(CreatureType=EDinoType::<ya-tr-span data-index="50-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Pteranodon" data-translation="Птеранодон" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Птеранодон</ya-tr-span>,PercentAllowed=50f,GroupLimit=999,SoftCapStart=0.7f,SoftCapEnd=1.0f)
+CreatureLimits=(CreatureType=EDinoType::<ya-tr-span data-index="51-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Saichania" data-translation="Сайхания" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Сайхания</ya-tr-span>,PercentAllowed=50f,GroupLimit=999,SoftCapStart=0.7f,SoftCapEnd=1.0f)
+CreatureLimits=(CreatureType=EDinoType::<ya-tr-span data-index="52-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Tropeognathus" data-translation="Тропеогнат" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Тропеогнат</ya-tr-span>,PercentAllowed=50f,GroupLimit=999,SoftCapStart=0.7f,SoftCapEnd=1.0f)
+CreatureLimits=(CreatureType=EDinoType::<ya-tr-span data-index="53-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Tyrannosaurus" data-translation="Тираннозавр" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Тираннозавр</ya-tr-span>,PercentAllowed=50f,GroupLimit=999,SoftCapStart=0.7f,SoftCapEnd=1.0f)
+CreatureLimits=(CreatureType=EDinoType::<ya-tr-span data-index="54-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Utahraptor" data-translation="Ютараптор" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Ютараптор</ya-tr-span>,PercentAllowed=50f,GroupLimit=999,SoftCapStart=0.7f,SoftCapEnd=1.0f)
+CreatureLimits=(CreatureType=EDinoType::<ya-tr-span data-index="55-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Velociraptor" data-translation="Велоцираптор" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Велоцираптор</ya-tr-span>,PercentAllowed=50f,GroupLimit=999,SoftCapStart=0.7f,SoftCapEnd=1.0f)
+!GrowthLimits=ClearArray
+Установите максиальный рост динозавров. Не ставьте разные значения, игры вас не поймёт и будет ставить всем динозаврам максимальный рост 20.0
+GrowthLimits=(Type=EDinoType::Acrocanthosaurus,Limit=5f)
+GrowthLimits=(Type=EDinoType::Apatosaurus,Limit=5f)
+GrowthLimits=(Type=EDinoType::Archelon,Limit=5f)
+GrowthLimits=(Type=EDinoType::Arganodus,Limit=5f)
+GrowthLimits=(Type=EDinoType::Auroraceratops,Limit=5f)
+GrowthLimits=(Type=EDinoType::Coahuilaceratops,Limit=5f)
+GrowthLimits=(Type=EDinoType::Elasmosaurus,Limit=5f)
+GrowthLimits=(Type=EDinoType::HorseshoeCrab,Limit=5f)
+GrowthLimits=(Type=EDinoType::Kronosaurus,Limit=5f)
+GrowthLimits=(Type=EDinoType::Ichthyovenator,Limit=5f)
+GrowthLimits=(Type=EDinoType::Lurdusaurus,Limit=5f)
+GrowthLimits=(Type=EDinoType::Malawania,Limit=5f)
+GrowthLimits=(Type=EDinoType::Megalosaurus,Limit=5f)
+GrowthLimits=(Type=EDinoType::Megaraptor,Limit=5f)
+GrowthLimits=(Type=EDinoType::Mosasaurus,Limit=5f)
+GrowthLimits=(Type=EDinoType::Oryctodromeus,Limit=5f)
+GrowthLimits=(Type=EDinoType::Pachycephalosaurus,Limit=5f)
+GrowthLimits=(Type=EDinoType::Palaeophis,Limit=5f)
+GrowthLimits=(Type=EDinoType::Parasaurolophus,Limit=5f)
+GrowthLimits=(Type=EDinoType::Pteranodon,Limit=5f)
+GrowthLimits=(Type=EDinoType::Saichania,Limit=5f)
+GrowthLimits=(Type=EDinoType::Tropeognathus,Limit=5f)
+GrowthLimits=(Type=EDinoType::Tyrannosaurus,Limit=5f)
+GrowthLimits=(Type=EDinoType::Utahraptor,Limit=5f)
+GrowthLimits=(Type=EDinoType::Velociraptor,Limit=5f)
+bForceIgnoreGroupSpeciesCheckOnLogin=   Проверка вида группы ForceIgnore при входе в систему.
+!AllowedSpeciesGroups=ClearArray
+Список травоядных или плотоядных, которым разрешено быть и приглашать разные виды.
+AllowedSpeciesGroups=(Group=(EDinoType::Апатозавр,EDinoType::Полярный цератопс,EDinoType::Коауилацератопс,EDinoType::Коауилацератопс,EDinoType::Лурдузавр,EDinoType::Oryctodromeus,EDinoType::Пахицефалозавр,EDinoType::Паразауролоф,EDinoType::Сайхания))
+AdminRanks=(AdminRank="SuperAdmin",RankLevel=999)    У администратора самый максимальный ранг. Открыт доступ ко всему, в том числе и редактору в игре.
+AdminRanks=(AdminRank="Admin",RankLevel=3)   Ограниченный доступ в игре. Не могут ставить мировые события и строить.
+AdminRanks=(AdminRank="Intern",RankLevel=1)   Может выдавать только еду и вытаскивать из текстур.
+Ниже приведены команды которые доступны администраторам или игрокам. Сами настраиваете как вам угодно.
+AdminCommandRules=(CommandType=EAdminCommands::<ya-tr-span data-index="145-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Announce" data-translation="Объявлять" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Объявлять</ya-tr-span>,MinimalRank=" ")
+AdminCommandRules=(CommandType=EAdminCommands::<ya-tr-span data-index="147-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="BanPlayer" data-translation="Банщик" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Банщик</ya-tr-span>,MinimalRank=" ")
+AdminCommandRules=(CommandType=EAdminCommands::<ya-tr-span data-index="149-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="CheckServerData" data-translation="CheckServerData ( Контрольный сервер )" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">CheckServerData ( Контрольный сервер )</ya-tr-span>,MinimalRank=" ")
+AdminCommandRules=(CommandType=EAdminCommands::<ya-tr-span data-index="151-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="ClearBones" data-translation="Чистые кости" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Чистые кости</ya-tr-span>,MinimalRank=" ")
+AdminCommandRules=(CommandType=EAdminCommands::<ya-tr-span data-index="153-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="ClearCarcasses" data-translation="Чистые каркасы" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Чистые каркасы</ya-tr-span>,MinimalRank=" ")
+AdminCommandRules=(CommandType=EAdminCommands::<ya-tr-span data-index="155-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="ControlServer" data-translation="Сервер управления" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Сервер управления</ya-tr-span>,MinimalRank=" ")
+AdminCommandRules=(CommandType=EAdminCommands::<ya-tr-span data-index="157-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="ControlWeather" data-translation="Контролируемая погода" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Контролируемая погода</ya-tr-span>,MinimalRank=" ")
+AdminCommandRules=(CommandType=EAdminCommands::<ya-tr-span data-index="159-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="EditFoliage" data-translation="Редактирование отслоения" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Редактирование отслоения</ya-tr-span>,MinimalRank=" ")
+AdminCommandRules=(CommandType=EAdminCommands::<ya-tr-span data-index="161-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="GroupInvitesOnly" data-translation="Групповое приглашение только" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Групповое приглашение только</ya-tr-span>,MinimalRank=" ")
+AdminCommandRules=(CommandType=EAdminCommands::<ya-tr-span data-index="163-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Groups" data-translation="Группы" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Группы</ya-tr-span>,MinimalRank=" ")
+AdminCommandRules=(CommandType=EAdminCommands::<ya-tr-span data-index="165-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="GrowEntity" data-translation="Растущая ценность" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Растущая ценность</ya-tr-span>,MinimalRank=" ")
+AdminCommandRules=(CommandType=EAdminCommands::<ya-tr-span data-index="167-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="KickPlayer" data-translation="Игрок в КикбОксинг" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Игрок в КикбОксинг</ya-tr-span>,MinimalRank=" ")
+AdminCommandRules=(CommandType=EAdminCommands::<ya-tr-span data-index="169-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="ModifyEggsAndNesting" data-translation="Модификация яиц и гнездования" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Модификация яиц и гнездования</ya-tr-span>,MinimalRank=" ")
+AdminCommandRules=(CommandType=EAdminCommands::<ya-tr-span data-index="171-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="ModifyServerData" data-translation="Модифицирующийсерверд данных" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Модифицирующийсерверд данных</ya-tr-span>,MinimalRank=" ")
+AdminCommandRules=(CommandType=EAdminCommands::<ya-tr-span data-index="173-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="ModifyTalents" data-translation="Модифицирующие способности" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Модифицирующие способности</ya-tr-span>,MinimalRank=" ")
+AdminCommandRules=(CommandType=EAdminCommands::<ya-tr-span data-index="175-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="PossessEntity" data-translation="Собственничество" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Собственничество</ya-tr-span>,MinimalRank=" ")
+AdminCommandRules=(CommandType=EAdminCommands::<ya-tr-span data-index="177-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="RespawnPlayer" data-translation="Игрок возрождения" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Игрок возрождения</ya-tr-span>,MinimalRank=" ")
+AdminCommandRules=(CommandType=EAdminCommands::<ya-tr-span data-index="179-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="RestartMap" data-translation="ПерезапУск карты" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">ПерезапУск карты</ya-tr-span>,MinimalRank=" ")
+AdminCommandRules=(CommandType=EAdminCommands::<ya-tr-span data-index="181-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="ServerMutePlayer" data-translation="Серверный проигрыватель" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Серверный проигрыватель</ya-tr-span>,MinimalRank=" ")
+AdminCommandRules=(CommandType=EAdminCommands::<ya-tr-span data-index="183-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="SpawnEntity" data-translation="Порождение" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Порождение</ya-tr-span>,MinimalRank=" ")
+AdminCommandRules=(CommandType=EAdminCommands::<ya-tr-span data-index="185-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Teleport" data-translation="Телепортироваться" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Телепортироваться</ya-tr-span>,MinimalRank=" ")
+AdminCommandRules=(CommandType=EAdminCommands::<ya-tr-span data-index="187-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="UseObserver" data-translation="Сервер использования" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Сервер использования</ya-tr-span>,MinimalRank=" ")
+ServerAdmins=(UserSteamId64=Steam ID,AdminRank="SuperAdmin")   Указать стим айди старших администраторов.
+ServerAdmins=(UserSteamId64=Steam ID,AdminRank="Admin")   Указать стим айди младших администраторов.
+!PlayerChatColors=ClearArray
+PlayerChatColors=(SteamID=Steam ID,ChatColor=(R=0,G=0.8,B=1,A=1.0))   Указать цветовыю палитру администратора или игрока. Ниже приведён пример.
+!PlayerChatTags=ClearArray
+PlayerChatTags=(SteamID=Steam ID,ChatTag="Указать имя") администратора или игрока в игре в скобках скобок []. 
+[Skins]
+SkinLockGrowthThreshold=   До какоо роста игрок может поменять свой скин.
+[/Script/BeastsOfBermuda.WeatherControllerBase]
+OceanHeightAdd=1.0f   Увеличение высоты океана.
+bCapStormSurge=   Спавн штормов.
+bStormsCauseStress=   Штормы вызывают стресс.
+bSpawnsTornados=   Спав торнадо.
+SpeedModifier=1.0f   Модификатор скорости.
+IntensityModifier=1.0f   Модификатор интенсивности.
+StormSpacingMultiplier=1.0f   Множитель расстояния между штормами.
+StormSurgeMultiplier=1.0f   Множитель штормовых нагонов.
+RainCommonness=5   Частота спавна дождя.
+FogCommonness=2   Частота спавна тумана.
+OvercastCommonness=2
+DryLightningCommonness=1   Частотта сппавна пасмурной погоды.
+[/Script/BeastsOfBermuda.SaveSystem]
+bDisableCharacterDeath=   Отключить смерть персонажа.
+AutosaveTime=135   Время автосохранения.
+[/Script/BeastsOfBermuda.BBGameModeBase]
+bLiveMessagesToRCON=   Прямые Сообщения в RCON.
+[/Script/BeastsOfBermuda.ServerGameInstance]
+SteamWorkshopFoliageSaveItemIDs=3668810440,3667947001   Мастерская Steam по сохранению листвы Ds.
+GameServerLoginToken=Токен для входа на игровой сервер.
+bUpdateFoliageFilesFromWorkshop=   Обновить файлы Foliage измастерской.
+AdminRanks=(AdminRank="PublishSteamWorkshop",RankLevel=999)    Ранг администратора.
+AdminCommandRules=(CommandType=EAdminCommands::SubmitSteamWorkshopFoliageFiles,MinimalRank="PublishSteamWorkshop")   Правила команды администратора.
+ServerAdmins=(UserSteamId64=7Steam ID,AdminRank="PublishSteamWorkshop")   Администраторы сервера.
+[GameReporter]
+bUseChatWebhook=   Используйте Чат Webhook.
+ChatReportDiscordWebhook="Отчет о чате Discord Webhook."
+ChatReportIconURL="URL-адрес отчета о чате."
+ChatWebhookFormatStyle="Стиль формата веб-узла чата."
+bUseCombatActivityWebhook=   Используйте веб-узел боевой активности.
+CombatActivityDiscordWebhook="Логи боевой активности в игре Discord Webhook"
+CombatActivityDiscordIconURL="URL-адрес отчета о чате боевой активности."
+bUseLoginReportWebhook=   Использовать веб-хук отчета о входе в систему.
+LoginDiscordWebhook="Адрес в Discord Webhook."
+LoginDiscordIconURL="URL-адрес отчета о чате."
+LoginReportFormatStyle="Стиль формата отчета о входе в систему."
+LogoutReportFormatStyle="Стиль формата отчета о выходе из системы."
+bUseAdminCommandUsageWebhook=   Используйте команду администратора, использующую Webhook.
+AdminCmdDiscordWebhook="Команда администратора Discord Webhook."
+AdminCmdDiscordIcon="Значок несогласия с командой администратора."
+AdminCommandUsageFormatStyle="Стиль формата использования команды администратора."
+bUseGroupActivityWebhook=   Используйте веб-браузер групповой активности.
+GroupActivityDiscordWebhook="Групповая активность Discord Webhook."
+GroupActivityDiscordIconURL="URL-адрес отчета о чате."
+bUseEventsWebhook=   Использовать веб-браузер событий.
+EventsDiscordWebhook="События Discord Webhook."
+EventsDiscordIconURL="URL-адрес отчета о чате."
